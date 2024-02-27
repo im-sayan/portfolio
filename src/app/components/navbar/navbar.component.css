@@ -1,0 +1,35 @@
+.header {
+  padding: 0px 90px;
+  background-color: transparent;
+  
+}
+
+.navbar-brand {
+  color: #FAEDF0;
+}
+
+.navbar-nav .nav-link {
+  padding: 10px 30px;
+  color: #FAEDF0;
+}
+
+
+.navbar-toggler-icon {
+  background-image: url("https://cdn-icons.flaticon.com/png/512/2099/premium/2099089.png?token=exp=1643608913~hmac=f679b98af8c75e79318302bedc4e28da");
+  }
+
+  .nav-link {
+    /* Default style */
+    background-color: transparent;
+    border-radius: 5;
+    transition: background-color 0.5s ease, border-radius 0.5s ease;
+  }
+  
+  .nav-link:hover {
+    /* Hover state */
+    background-color: #40554f;
+  
+    border-radius: 50px;
+  }
+  
+  

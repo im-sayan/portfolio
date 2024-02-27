@@ -1,0 +1,72 @@
+
+.fa {
+  margin: 0px 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  margin: 0px 0px;
+}
+
+.left-portion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #417447;
+}
+
+.row {
+  
+}
+
+/* .img-fluid {
+  width: 500px;
+  height: 500px;
+  margin-left: 8%;
+} */
+
+.submit-btn {
+  width: 250px;
+  height: 50px;
+  background-color: red;
+  filter: drop-shadow(2px 2px 3px #0003);
+  color: white;
+  font-family: "Poppins",sans-serif;
+  font-size: clamp(16px, 1.6vw, 18px);
+  display: block;
+  padding: 12px 20px;
+  margin: 2px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s;
+}
+
+.submit-btn:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.submit-btn:active {
+  transform: scale(1.1, 1.1);
+  filter: sepia(0.5);
+}
+
+.overlay-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* background: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%); */
+  background-size: 8px 8px; /* Adjust the size of the dashes */
+  pointer-events: none; /* Ensure the overlay doesn't interfere with interactions */
+}
